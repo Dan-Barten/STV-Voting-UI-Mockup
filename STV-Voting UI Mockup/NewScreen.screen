@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model:Screen xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:ButtonBar" id="1" x="72" y="80" width="641" height="191" text="One, Two, Three" measuredWidth="641" measuredHeight="191" selection="0">
+    <font/>
+    <items x="0" y="0" width="198" height="191" text="One"/>
+    <items x="198" y="0" width="197" height="191" text="Two"/>
+    <items x="395" y="0" width="246" height="191" text="Three"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
